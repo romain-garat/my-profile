@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(200, 200, 200);
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    color: purple;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 10px;
+    font-weight: 900px;
+    text-transform: uppercase;
+}   
+
+.img-circle {
+    border-radius: 200%;
+}
+
+h1, h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: purple;
+    opacity: 50%;
+}
+
+div{
+    border: solid 2px rgb(210, 210, 210)
+}
+
+
+.container {
+    background-color: white;
+    padding: 29px;
+    margin: 30px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 2);
+    border-radius: 5px;
+}
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
+
+.card-white{
+    padding: 29px;
+    margin: 30px;
+    box-shadow: 0px 10px 30px rgb(128, 0, 128);
+    border-radius: 5px;
+}
+
+ul li{
+    list-style: none;
+    display: inline;
+    font-size: 30px;
+    margin: 10px;
+}
+
+ul {
+    margin-top: 35px;
+    padding-left: 0px;
+}
+
+.list-inline{
+    display: none;
+    font-size: 40px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.btn-blue {
+    background-color: rgb(130, 130, 130);
+   color: white;
+   box-shadow: 0px 5px 15px rgb(128, 0, 128);
+   padding: 10px;
+   border-radius: 5px;
+   margin: 10px;
+}
+
+#introduction p {
+    margin-bottom: 35px;
+}
